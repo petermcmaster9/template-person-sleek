@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------ */
+/* Custom Properties */
+/* ------------------------------------------------------------ */
+
+:root {
+    /* Navbar Height (offset) */
+    --navbar-height: clamp(80px, 11vh, 120px);
+
+    /* Fonts */
+    --font-family-1: 'Nunito Sans', sans-serif, arial;
+    --font-family-2: 'Raleway', sans-serif, arial;
+    --font-weight-thin: 200;
+    --font-weight-300: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --font-color-white: #eee;
+    --font-color-grey-1: #ccc;
+    --font-color-grey-2: #333;
+    --font-color-black: #111;
+
+    --font-size-heading: clamp(2.4rem, 5vw, 3rem);
+    --font-size-subheading-1: clamp(1.25rem, 4vw, 1.8rem);
+    --font-size-subheading-2: clamp(1.125rem, 3vw, 1.5rem);
+    --font-size-body: clamp(1rem, 2.2vw, 1.25rem);
+    --font-size-small: clamp(0.96rem, 2vw, 1.18rem);
+    --font-size-tiny: clamp(0.6rem, 1.8vw, 1rem);
+
+    /* Colors */
+    --color-1: #000;
+    --color-2: #383838;
+    --color-3: #787878;
+    --color-4: #ccc;
+    --color-5: #fff;
+    --color-6: #0b0b27;
+    --color-accent: #71BAC5;
+    --color-accent2: #83b9c2;
+    --color-success: #0b8300;
+    --color-warning: #ffc107;
+    --color-disabled: #999;
+
+
+    /* Stylings */
+    --border-radius: 30px;
+    --border-radius-1: 20px;
+    --border-radius-2: 10px;
+
+    /* Breakpoints */
+    --breakpoint-mobile: 768px;
+    --breakpoint-tablet: 1024px;
+    --breakpoint-desktop: 1440px;
+}
+
+/* ------------------------------------------------------------ */
+/* Fonts */
+/* ------------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------------ */
+/* Reset html globals */
+/* ------------------------------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body, ul, li, a, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    /* may be unecessary */
+    /* scroll-padding-bottom: var(--navbar-height); */
+}
