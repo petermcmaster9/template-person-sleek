@@ -28,17 +28,17 @@
     --font-size-tiny: clamp(0.6rem, 1.8vw, 1rem);
 
     /* Colors */
-    --color-1: #000;
-    --color-2: #383838;
-    --color-3: #787878;
-    --color-4: #ccc;
-    --color-5: #fff;
-    --color-6: #0b0b27;
-    --color-accent: #71BAC5;
-    --color-accent2: #83b9c2;
-    --color-success: #0b8300;
-    --color-warning: #ffc107;
-    --color-disabled: #999;
+    --color-1: rgba(0, 0, 0, 0);
+    --color-2: rgba(56, 56, 56, 1);
+    --color-3: rgba(120, 120, 120, 1);
+    --color-4: rgba(204, 204, 204, 1);
+    --color-5: rgba(255, 255, 255, 1);
+    --color-6: rgba(11, 11, 39, 1);
+    --color-accent: rgba(113, 186, 197, 1);
+    --color-accent2: rgb(131, 185, 194, 1);
+    --color-success: rgba(11, 131, 0, 1);
+    --color-warning: rgba(255, 193, 7, 1);
+    --color-disabled: rgba(153, 153, 153, 1);
 
 
     /* Stylings */
