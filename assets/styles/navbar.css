@@ -63,7 +63,10 @@
     /* DESKTOP */
 }
 
-/* Navlist */
+/* ********************************************** */
+/* Menu / Navigational items */
+/* ********************************************** */
+
 /* MOBILE */
 .navbar__navlist {
     position: fixed;
@@ -146,13 +149,55 @@
 
 @media (min-width: 768px) {
     /* TABLET */
+    .navbar__navlist {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: clamp(180px, 60vw, 800px);
+        height: 100%;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .navbar__navlist li {
+        position: relative;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        width: 80%;
+        margin: 0 auto;
+        padding: 5vh 0;
+        flex-grow: 1;
+    }
+    
+    .navbar__navlist li {
+        padding: 0;
+        border-top: none;
+        border-bottom: none;
+        width: auto;
+        margin: 0;
+        padding: 0 0;
+    }
+    
+    .navbar__link {
+        font-size: var(--font-size-subheading-2);
+        font-weight: var(--font-weight-300);
+    }
 }
 
 @media (min-width: 1024px) {
     /* DESKTOP */
 }
 
-/* Hamburger Menu - Mobile (Default) */
+/* ********************************************** */
+/* Hamburger Menu - MOBILE ONLY */
+/* ********************************************** */
+
 /* MOBILE */
 .navbar__toggle {
     display: flex;
@@ -204,46 +249,6 @@
     /* TABLET */
     .navbar__toggle {
         display: none;
-    }
-    
-    .navbar__navlist {
-        position: static;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: clamp(180px, 60vw, 800px);
-        height: 100%;
-        transform: none;
-        opacity: 1;
-        visibility: visible;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-    }
-
-    .navbar__navlist li {
-        position: relative;
-        border-top: 1px solid rgba(255, 255, 255, 0.4);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-        width: 80%;
-        margin: 0 auto;
-        padding: 5vh 0;
-        flex-grow: 1;
-    }
-    
-    .navbar__navlist li {
-        padding: 0;
-        border-top: none;
-        border-bottom: none;
-        width: auto;
-        margin: 0;
-        padding: 0 0;
-    }
-    
-    .navbar__link {
-        font-size: var(--font-size-subheading-2);
-        font-weight: var(--font-weight-300);
     }
 }
 
