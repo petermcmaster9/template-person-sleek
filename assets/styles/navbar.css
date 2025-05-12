@@ -1,4 +1,7 @@
+/* ********************************************** */
 /* Navbar */
+/* ********************************************** */
+
 /* MOBILE */
 .navbar {
     display: flex;
@@ -20,6 +23,7 @@
 }
 
 @media (min-width: 768px) {
+    /* TABLET */
     .navbar {
         justify-content: space-around;
         padding: 0;
@@ -27,10 +31,13 @@
 }
 
 @media (min-width: 1024px) {
-    /* Any additional desktop-specific styles */
+    /* DESKTOP */
 }
 
+/* ********************************************** */
 /* Logo */
+/* ********************************************** */
+
 /* MOBILE */
 .navbar__logo {
     height: 98%;
